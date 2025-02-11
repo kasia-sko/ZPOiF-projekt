@@ -1,0 +1,104 @@
+/* Zmiana koloru tła dnia w kalendarzu przy najechaniu */
+.date-cell:filled:hover {
+    -fx-background-color: #5CAA7A;
+    -fx-text-fill: white;
+}
+
+/* Zielone ramki po kliknięciu */
+.text-field:focused, .combo-box:focused, .button:focused, .date-picker:focused .arrow-button{
+    -fx-faint-focus-color: #5CAA7A;
+    -fx-border-color: #2f4f3d;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 3px;
+}
+
+/* Zmiana tła rozwijanego elementu w ComboBox na zielone przy najechaniu */
+.combo-box .list-cell:hover {
+    -fx-background-color: #5CAA7A;
+}
+
+/* Kursor zmienia się na dłoń */
+.button:hover {
+    -fx-cursor: hand;
+}
+
+/* Styl przycisku swap-button */
+.swap-button {
+    -fx-font-size: 20px;
+    -fx-padding: 0px 5px;
+    -fx-background-color: #2f4f3d;
+    -fx-border-color: #2f4f3d;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+/* Styl przycisku swap-button po najechaniu */
+.swap-button:hover {
+    -fx-background-color: #5CAA7A;
+    -fx-text-fill: white;
+}
+
+/* Styl przycisku swap-button po kliknięciu */
+.swap-button:pressed {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+/* Styl dla zielonych przycisków */
+.green-button {
+    -fx-background-color: #2f4f3d;
+    -fx-border-color: #2f4f3d;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+/* Styl przycisku po najechaniu */
+.green-button:hover {
+    -fx-background-color: #5CAA7A;
+    -fx-text-fill: white;
+}
+
+/* Styl przycisku po kliknięciu */
+.green-button:pressed {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+/* Styl dla zakładki (Tab) */
+.tab {
+    -fx-font-size: 15px;
+    -fx-padding: 8px 15px;
+    -fx-background-color: #2f4f3d;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-pref-width: 200px;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+/* Styl dla zaznaczonej zakładki */
+.tab:selected {
+    -fx-background-color: #5CAA7A;
+    -fx-text-fill: white;
+}
+
+/* Styl dla zakładki po najechaniu*/
+.tab:hover {
+    -fx-background-color: #6FCF97;
+    -fx-text-fill: white;
+}
+
+/* Styl dla etykiety zakładki */
+.tab .tab-label {
+    -fx-text-fill: white;
+}
